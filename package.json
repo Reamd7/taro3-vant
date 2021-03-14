@@ -1,7 +1,16 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/taro3-vant",
+    "packages/taro3-vant-example",
+    "packages/taro3-demo-shell"
+  ],
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "rimraf ./node_modules & rimraf ./packages/taro-vant/node_modules & rimraf ./packages/taro-vant-example/node_modules & lerna clean"
   }
 }

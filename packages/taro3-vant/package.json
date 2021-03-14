@@ -1,0 +1,35 @@
+{
+  "name": "taro3-vant",
+  "version": "0.0.1",
+  "description": "基于 `vant ui` 和 `taro3`，以兼容`react-native`为优先目标的UI库",
+  "keywords": [
+    "taro",
+    "vant-ui",
+    "react",
+    "react-native"
+  ],
+  "author": "reamd7 <reamd7@gmail.com>",
+  "homepage": "https://github.com/Reamd7/taro3-vant#readme",
+  "license": "MIT",
+  "main": "./lib/index.tsx",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reamd7/taro3-vant.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Reamd7/taro3-vant/issues"
+  }
+}
