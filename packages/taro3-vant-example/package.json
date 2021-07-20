@@ -2,7 +2,7 @@
 	"name": "taro3-vant-example",
 	"version": "1.0.0",
 	"private": true,
-	"description": "Taro 3 - Mortgage Calculator",
+	"description": "Taro 3 - Vant UI Component Example",
 	"templateInfo": {
 		"name": "default",
 		"typescript": true,

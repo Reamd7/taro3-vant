@@ -14,7 +14,7 @@
     "react/self-closing-comp": 1,
     "react/no-multi-comp": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
-    // "@typescript-eslint/no-unused-vars": ["warning", { "varsIgnorePattern": "Taro" }],
+    // "@typescript-eslint/no-unused-vars": ["warning", { "varsIgnorePattern": "React" }],
     "@typescript-eslint/no-undef": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/no-empty-function": 0,
@@ -26,6 +26,8 @@
     "import/prefer-default-export": 0,
     "@typescript-eslint/camelcase": 0,
     "@typescript-eslint/ban-ts-ignore": 0,
-    "@typescript-eslint/no-inferrable-types": 0
+    "@typescript-eslint/no-inferrable-types": 0,
+    "@typescript-eslint/no-shadow": 0,
+    "@typescript-eslint/no-use-before-define": 0
   }
 }
